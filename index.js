@@ -1,10 +1,14 @@
 const quotes = [
-    "The best way to get started is to quit talking and begin doing. – Walt Disney",
-    "Don’t let yesterday take up too much of today. – Will Rogers",
-    "It’s not whether you get knocked down, it’s whether you get up. – Vince Lombardi",
-    "If you are working on something exciting, it will keep you motivated. – Steve Jobs",
-    "Success is not in what you have, but who you are. – Bo Bennett",
+    "The best way to predict the future is to create it. – Peter Drucker",
     "The only limit to our realization of tomorrow will be our doubts of today. – Franklin D. Roosevelt",
+    "The future belongs to those who believe in the beauty of their dreams. – Eleanor Roosevelt",
+    "You are never too old to set another goal or to dream a new dream. – C.S. Lewis",
+    "It does not matter how slowly you go as long as you do not stop. – Confucius",
+    "The only way to do great work is to love what you do. – Steve Jobs",
+    "Success usually comes to those who are too busy to be looking for it. – Henry David Thoreau",
+    "Opportunities don’t happen, you create them. – Chris Grosser",     
+    "Don’t watch the clock; do what it does. Keep going. – Sam Levenson",
+    "The future depends on what you do today. – Mahatma Gandhi",
     
 ];
 
