@@ -5,7 +5,7 @@ const quotes = [
     "If you are working on something exciting, it will keep you motivated. – Steve Jobs",
     "Success is not in what you have, but who you are. – Bo Bennett",
     "The only limit to our realization of tomorrow will be our doubts of today. – Franklin D. Roosevelt",
-    "i hate data structures" - "Anonymous",
+    
 ];
 
 function newQuote() {
