@@ -3,15 +3,21 @@ const quotes = [
     "Don’t let yesterday take up too much of today. – Will Rogers",
     "It’s not whether you get knocked down, it’s whether you get up. – Vince Lombardi",
     "If you are working on something exciting, it will keep you motivated. – Steve Jobs",
-    "Success is not in what you have, but who you are. – Bo Bennett"
+    "Success is not in what you have, but who you are. – Bo Bennett",
+    "The only limit to our realization of tomorrow will be our doubts of today. – Franklin D. Roosevelt",
+    "i hate data structures" - "Anonymous",
 ];
 
 function newQuote() {
     const randomIndex = Math.floor(Math.random() * quotes.length);
-    if (randomIndex === lastIndex) {
+    document.getElementById('quote').textContent = quotes[randomIndex];
+
+
+if (randomIndex === lastIndex) {
         newQuote();
         return;
     }
-    document.getElementById('quote').textContent = quotes[randomIndex];
+    lastIndex = randomIndex;
+
 }
 
